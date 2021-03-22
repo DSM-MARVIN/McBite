@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
+    <link rel="stylesheet" href="style.css">
+    <title>Assessment Project</title>
+</head>
+<body>
+    <header class="shadow-sm">
+        <h1><img src="./img/LogoMakr-41eAj8.png" alt="" srcset="" width="60px">McBit</h1>
+    </header>
+    <div class="containerr">
+        <div id="add-item" class="card">
+            <h2>Add Items</h2>
+            <div class="items border"><p class="added-quan1 add"></p> <span><img src="./img/ice-cream.png" alt="" srcset="" width="35px">  </span><input type="submit" value="Add" class="btn btn-primary add1 btnAdd"></div>
+            <div class="items border"><p class="added-quan2 add"></p> <span><img src="./img/pizza.png" alt="" srcset="" width="40px">  </span><input type="submit" value="Add" class="btn btn-primary add2 btnAdd"></div>
+            <div class="items border"><p class="added-quan3 add"></p> <span><img src="./img/burger.png" alt="" srcset="" width="40px">  </span><input type="submit" value="Add" class="btn btn-primary add3 btnAdd"></div>
+            <p><i class="fa fa-warning"></i>Enjoy</p>
+        </div>
+        <form id="ASM-form" class="form-group border">
+            <h2>Buy Here</h2><hr>
+            <div class="form-group">
+              <label for="title">Email</label>
+              <input type="email" id="email" name="emailField" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="isbn">Ice Cream</label>
+              <input type="number" id="quantity1" name="points" min="1" max="20" class="form-control quan1">
+            </div>
+            <div class="form-group">
+              <label for="isbn">Pizza</label>
+              <input type="number" id="quantity2" name="points" min="1" max="20" class="form-control quan2">
+            </div>
+            <div class="form-group">
+              <label for="isbn">Burger</label>
+              <input type="number" id="quantity3" name="points" min="1" max="20" class="form-control quan3">
+            </div>
+            <input type="submit" value="Buy" class="btn btn-success submit" >
+          </form>
+          <div class="display-price border">
+              <h2>Item Price</h2>
+              <div class="pricelist"><span class="item-name ice">Ice Cream : <sup>R</sup></span><span class="priceItm1 price-check">0</span></div>
+              <div class="pricelist"><span class="item-name piz">Pizza : <sup>R</sup></span><span class="priceItm2 price-check">0</span></div>
+              <div class="pricelist"><span class="item-name bur">Burger : <sup>R</sup></span><span class="priceItm3 price-check">0</span></div>
+              <ul class="list">
+
+            </ul>
+          </div>
+<!-- 
+          <ul class="list">
+
+          </ul> -->
+      </div> <!-- container -->
+      <script src="./main.js"></script>
+      <footer class="g">&copy;DSM-Marvin marv3419@gmail.com</footer>
+</body>
+</html>

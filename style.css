@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Righteous&display=swap');
+
+body{
+    background-color: white;
+    font-family: 'Righteous', cursive;
+    background-image: url(./img/KIGoVj.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+    overflow-x: hidden;
+
+}
+
+header{
+    background-color: white;
+    color: orangered;
+    padding: 10px;
+    margin-bottom: 1rem;
+}
+
+
+.containerr{
+    display: flex;
+    justify-content: space-evenly;
+    color: black;
+    width: 100vw;
+    margin: 0 auto;
+}
+
+.add{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+#add-item{
+    background-color:  white;
+    color: black;
+    margin: 2rem 0;
+    padding: 15px 3rem;
+    border-radius: 1rem;
+    /* height: 70vh; */
+
+}
+
+.items{
+    margin: 1rem auto;
+    padding: 5px;
+}
+
+.item-name{
+    font-size: 20px;
+}
+
+.price-check{
+    font-size: 30px;
+}
+
+sup{
+    font-size: 20px;
+}
+
+.ice{
+    color: palevioletred;
+}
+.piz{
+    color: darkorange;
+}
+.bur{
+    color: chocolate;
+}
+
+.fa{
+    color: yellow;
+}
+
+.display-price{
+    background-color: white;
+    height: 70vh;
+    width: 25vw;
+    margin: 2rem 0;
+    border-radius: 1rem;
+    padding: 15px 0 0 30px;
+    overflow: auto;
+
+
+}
+
+.pricelist{
+    margin: auto;
+}
+
+.add1{
+    padding-left: 1rem;
+}
+.add2{
+    margin-right: 20px;
+}
+.add2{
+    margin-top: 20px;
+}
+
+.added-quan1{
+    display: inline;
+}
+.added-quan2{
+    display: inline;
+}
+.added-quan3{
+    display: inline;
+}
+
+/* .list-group-item{
+    border: 3px gray solid;
+} */
+
+.btn{
+    width: 100%;
+    padding: 4px 8px;
+    margin: auto;
+}
+
+.btnAdd{
+    width: 10rem;
+    padding: 4px 8px;
+    margin: auto;
+}
+
+form{
+    color: black;
+    margin: 2rem 0;
+    background-color: white;
+    /* height: 70vh; */
+    padding: 15px 4rem;
+    border-radius: 1rem;
+}
+
+.list-group-item{
+    list-style: none;
+    margin-top: 0.5rem;
+    text-align: center;
+    background-color: violet;
+    color: #fff;
+    /* border: 2px palevioletred dotted; */
+    /* border-radius: 15px; */
+}
+
+footer{
+    width: max-content;
+    /* width: 10vw; */
+    margin: auto;
+    color: white;
+    background-color: #333;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+@media (max-width: 1000px){
+    .containerr{
+        flex-direction: column;
+    }
+
+        .display-price{
+            width: 95%;
+            margin: auto;
+            
+        }
+
+        #add-item{
+            margin-top: 1rem;
+            width: 95%;
+            margin: auto;
+        }
+
+        form{
+            width: 95%;
+            margin: auto;
+            margin-top: 1rem;
+        }
+
+}
