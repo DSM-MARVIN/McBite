@@ -10,8 +10,6 @@ var sub = 0;
 const quan1 = document.querySelector('.quan1');
 const quan2 = document.querySelector('.quan2');
 const quan3 = document.querySelector('.quan3');
-const minItem = 0;
-document.querySelectorAll('.add').innerHTML = minItem;
 
 var value1;
 var value2;
@@ -21,7 +19,6 @@ add1.addEventListener('click', addfunc);
 
 //adding items1
 function addfunc(){
-// const addQ1 = document.querySelector('.added-quan1')
 value1 = addQ1.innerHTML;
 
 ++value1;
@@ -47,7 +44,6 @@ const add2 = document.querySelector('.add2')
 add2.addEventListener('click', addfunc2);
 
 function addfunc2(){
-// const addQ2 = document.querySelector('.added-quan2')
 value2 = addQ2.innerHTML;
 
 ++value2;
@@ -73,7 +69,6 @@ const add3 = document.querySelector('.add3')
 add3.addEventListener('click', addfunc3);
 
 function addfunc3(){
-// const addQ3 = document.querySelector('.added-quan3')
 value3 = addQ3.innerHTML;
 
 ++value3;
@@ -127,15 +122,6 @@ function formsubmit(e){
         li.appendChild(document.createTextNode(` / ${quantity3} Burger: R${quantity3 * price3}`));
         List.appendChild(li);
 
-
-
-        // if(isNaN(quantity1)){
-        //         quantity1 = 0;
-        //         value1 = value1 - quantity1;
-
-        //         addQ1.innerHTML = 0;
-        // }
-
         value1 = value1 - quantity1;
         value2 = value2 - quantity2;
         value3 = value3 - quantity3;
@@ -164,18 +150,12 @@ function formsubmit(e){
         price3 = price3 - (value3 * 0.50 )
         document.querySelector('.priceItm3').innerHTML = price3;
 
-        // if(quantity1 == NaN){
-        //         quantity1 = 0;
-        //         value1 = value1 - quantity1;
-
-        //         // value1 = addQ1.innerHTML;
-        
-        // }
 
    
         console.log(`Price ${price1}`)
         console.log(`Price2 ${price2}`)
         console.log(`Price3 ${price3}`)
+
 
 }
 

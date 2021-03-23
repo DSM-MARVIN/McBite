@@ -110,10 +110,6 @@ sup{
     display: inline;
 }
 
-/* .list-group-item{
-    border: 3px gray solid;
-} */
-
 .btn{
     width: 100%;
     padding: 4px 8px;
@@ -130,7 +126,6 @@ form{
     color: black;
     margin: 2rem 0;
     background-color: white;
-    /* height: 70vh; */
     padding: 15px 4rem;
     border-radius: 1rem;
 }
@@ -141,13 +136,10 @@ form{
     text-align: center;
     background-color: violet;
     color: #fff;
-    /* border: 2px palevioletred dotted; */
-    /* border-radius: 15px; */
 }
 
 footer{
     width: max-content;
-    /* width: 10vw; */
     margin: auto;
     color: white;
     background-color: #333;
